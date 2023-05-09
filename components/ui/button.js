@@ -3,8 +3,8 @@ import style from "./button.module.css";
 
 function Button(props){
     return(
-        <Link href={props.link}>
-            <a className={style.btn}>{props.children}</a>
+        <Link href={props.link} className={style.btn}>
+            {props.children}
         </Link>
     );
 }
