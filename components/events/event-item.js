@@ -4,7 +4,6 @@ import DateIcon from "../icons/date-icon";
 import AddressIcon from '../icons/address-icon';
 import ArrowRightIcon from "../icons/arrow-right-icon";
 import Link from 'next/link';
-import AddressIcon from '../icons/address-icon';
 
 function EventItem(props){
     const { title, date, image, location, id } = props;
